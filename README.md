@@ -2,7 +2,6 @@
 
 ![Blog Personal Nest](img/image.png)
 
-
 Este es un proyecto de blog personal desarrollado con NestJS.
 
 ## Sugerencia
@@ -11,7 +10,7 @@ Este es un proyecto de blog personal desarrollado con NestJS.
 
 ## Tutorial
 
-<p style="text-align: justify">Si deseas aprender a implementar autenticación en un blog personal con NestJS, te invitamos a seguir el tutorial en el siguiente enlace: </p> 
+<p style="text-align: justify">Si deseas aprender a implementar autenticación en un blog personal con NestJS, te invitamos a seguir el tutorial en el siguiente enlace: </p>
 
 - [**Tutorial:** Implementación de un Blog Personal con Nest.js](/Tutoriales/tutorial.md)
 
@@ -65,11 +64,11 @@ Este es un proyecto de blog personal desarrollado con NestJS.
 - PUT /posts/:id: Actualizar una publicación existente
 - DELETE /posts/:id: Eliminar una publicación existente
 
-<!-- ## Autenticación
+## Autenticación
 
-Para proteger las rutas y los recursos, se ha implementado la autenticación mediante tokens JWT (JSON Web Tokens). 
+Para proteger las rutas y los recursos, se ha implementado la autenticación mediante tokens JWT (JSON Web Tokens).
 
-Debes obtener un token de acceso enviando una solicitud POST a `/auth/login` con las credenciales de usuario. Luego, incluye este token en la cabecera Authorization de tus solicitudes HTTP utilizando el esquema Bearer. -->
+Debes obtener un token de acceso enviando una solicitud POST a `/auth/login` con las credenciales de usuario. Luego, incluye este token en la cabecera Authorization de tus solicitudes HTTP utilizando el esquema Bearer.
 
 ## Mejoras Futuras
 
@@ -78,7 +77,7 @@ Debes obtener un token de acceso enviando una solicitud POST a `/auth/login` con
 - [✅] Implementación de MongoDB para almacenar las publicaciones.
 - [✅] Implementación de peticiones GET, POST, PUT, DELETE.
 - [✅] Implementación de pruebas unitarias y de integración.
-- [❌] Implementación de comentarios en las publicaciones.
+- [✅] Implementación de comentarios en las publicaciones.
 - [❌] Mejorar la validación de datos en las solicitudes POST y PUT.
 - [❌] Implementación de un front-end utilizando Angular, React o Vue.js.
 
